@@ -1,6 +1,15 @@
 from typing import Dict
 
 def getInput() -> int:
+    """
+    Prompts the user to enter an integer within the range [1,10]. If the input
+    is invalid, an error is shows and the user is prompted for a new input.
+
+    Returns
+    -------
+    int
+        The user's input.
+    """
     # Retrieves the user's input and stores as a string.
     i: str = input("Enter an integer within the range [1,10]: ")
 
