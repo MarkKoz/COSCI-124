@@ -1,16 +1,19 @@
 from typing import Dict
 
-# Retrieves the user's input and stores as a string.
-inp: str = input("Enter an integer within the range [1,10]: ")
+def getInput() -> int:
+    # Retrieves the user's input and stores as a string.
+    i: str = input("Enter an integer within the range [1,10]: ")
 
-# Retrieves the user's input until it consists of numeric characters.
-while not inp.isdigit():
-    inp = input("The input does not consist of numeric characters or is empty, "
-                "try again: ")
+    # Retrieves the user's input until it consists of numeric characters.
+    while not i.isdigit():
+        i = input("The input does not consist of numeric characters or is empty"
+                  ", try again: ")
 
-# Retrieves the user's input until it is within the range [1,10].
-while not 1 <= int(inp) <= 10:
-    inp = input("The input is not within the range [1,10], try again: ")
+    # Retrieves the user's input until it is within the range [1,10].
+    while not 1 <= int(i) <= 10:
+        i = input("The input is not within the range [1,10], try again: ")
+
+    return int(i)
 
 # Associates integers with roman numerals.
 roman: Dict[int, str] = {1: "I",
@@ -24,5 +27,5 @@ roman: Dict[int, str] = {1: "I",
                          9: "IX",
                          10: "X"}
 
-i: int = int(inp) # Converts the input to an int.
-print(f"The roman numeral equivalent of '{i}' is '{roman[i]}'.")
+inp: int = getInput()
+print(f"The roman numeral equivalent of '{inp}' is '{roman[inp]}'.")
