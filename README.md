@@ -26,7 +26,7 @@ of that time period. Here is an example of the desired output:
 | 2    | 80                |
 | 3    | 120               |
 
-### Exercise 12 - Population
+### Exercise 08 - Population
 Write a program that predicts the approximate size of a population of organisms.
 The application should use text boxes to allow the user to enter the starting
 number of organisms, the average daily population increase (as a percentage),
