@@ -1,15 +1,11 @@
-# Retrieves use inputs, all cast to ints. inc is divide by 100 to convert
-# percentage into decimal.
-start: float = int(input("Starting number of organisms: "))
-inc: float = int(input("Average daily increase: ")) / 100
-days: int = int(input("Number of days to multiply: "))
+total: int = 0 # Cumulative total of all inputs.
+inp: int = int(input("Enter a positive number to continue "
+                     "or a negative to stop: "))
 
-# Prints the table header and the result for the first day because there is
-# no growth at the start of the first day.
-print("\nDay Approximate\t\tPopulation")
-print(f"{1}\t\t\t\t\t{start}")
+# Prompts for a new input while the previous input is not negative.
+while inp >= 0:
+    total += inp # Adds the previous input to the total.
+    inp = int(input("Enter a positive number to continue "
+                    "or a negative to stop: "))
 
-# Iterates
-for i in range(1, days):
-    start += start * inc
-    print(f"{i + 1}\t\t\t\t\t{start}")
+print(f"Total: {total}")
