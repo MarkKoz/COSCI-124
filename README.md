@@ -14,7 +14,7 @@ all the numbers stored in the file.
 ### Exercise 09 - Exception Handling
 Modify the program that you wrote for Exercise 6 so it handles the following
 exceptions:
-* It should handle any IOError exceptions that are raised when the file is
+* It should handle any `IOError` exceptions that are raised when the file is
 opened and data is read from it.
-* It should handle any ValueError exceptions that are raised when the items that
-are read from the file are converted to a number.
+* It should handle any `ValueError` exceptions that are raised when the items
+that are read from the file are converted to a number.
