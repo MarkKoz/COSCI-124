@@ -20,5 +20,4 @@ with open(path) as file:
 
     # Sum of all values in the list divided by the total quantity of numbers.
     avg: float = sum(nums) / len(nums)
-
     print(avg)
