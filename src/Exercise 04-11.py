@@ -1,6 +1,7 @@
 def getInput() -> int:
     """
-    Prompts the user to input a non-negative integer.
+    Prompts the user to input a non-negative integer. Keeps prompting until
+    a valid input is entered.
 
     Returns
     -------
@@ -9,8 +10,8 @@ def getInput() -> int:
     """
     while True:
         try:
-            num = int(input("Enter a non-negative integer: "))
-            if num >= 0: return num
+            n = int(input("Enter a non-negative integer: "))
+            if n >= 0: return n
             print("Input is negative, try again.")
         except ValueError:
             print("Input is not an integer, try again.")
