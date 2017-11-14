@@ -1,5 +1,4 @@
 from typing import List
-from pathlib import Path
 
 total: int = 20 # Number of questions in the exam.
 scorePass: int = 15 # Number of correct questions required to pass the exam.
@@ -7,18 +6,13 @@ scorePass: int = 15 # Number of correct questions required to pass the exam.
 answers: List[str] = ["A", "C", "A", "A", "D", "B", "C", "A", "C", "B", "A",
                       "D", "C", "A", "D", "C", "B", "B", "D", "A"]
 
-# __file__ is a string containing the path to this script's file. It is turned
-# into a pathlib.Path so that the parent directory path can be retrieved with
-# .parent.
-root: Path = Path(__file__).parent
-
 # Creates a text file and writes the answers to it.
-with open(Path(root, "answers.txt"), "w") as file:
+with open("answers.txt", "w") as file:
     # Creates a newline-delimited string of answers and writes it to the file.
     file.write("\n".join(answers))
 
 # Assumes all question are answered i.e 20 lines will be read in total.
-with open(Path(root, "exam.txt")) as file:
+with open("exam.txt") as file:
     # Reads the file until EOF as one string and splits it into a list of lines.
     # This is done to remove the newline character.
     exam: List[str] = file.read().splitlines()

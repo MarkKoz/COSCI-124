@@ -1,4 +1,4 @@
-# CO SCI 124 - Chapter 07: Programming Exercises
+# CO SCI 124 - Chapter 06: Programming Exercises
 **Course Title:** Python Programming<br/>
 **Section:** 28314<br/>
 **Instructor:** Mohamad Pashazadeh Monajem<br/>
@@ -56,8 +56,7 @@ lists. The user should be able to enter a boy’s name, a girl’s name, or both
 and the application will display messages indicating whether the names were
 among the most popular.
 
-(You can access the book’s companion Web site at
-[www.pearsonglobaleditions.com/gaddis](www.pearsonglobaleditions.com/gaddis).)
+(You can access the book’s companion Web site at www.pearsonglobaleditions.com/gaddis.)
 
 ### Exercise 09 - Population Data
 If you have downloaded the source code from this book’s companion Web site, you
@@ -73,8 +72,7 @@ display the following data:
 * The year with the greatest increase in population during the time period
 * The year with the smallest increase in population during the time period
 
-(You can access the book’s companion Web site at
-[www.pearsonglobaleditions.com/gaddis](www.pearsonglobaleditions.com/gaddis).)
+(You can access the book’s companion Web site at www.pearsonglobaleditions.com/gaddis.)
 
 ### Exercise 10 - World Series Champions
 If you have downloaded the source code from this book’s companion Web site, you
@@ -88,8 +86,7 @@ Write a program that lets the user enter the name of a team and then displays
 the number of times that team has won the World Series in the time period from
 1903 through 2009.
 
-(You can access the book’s companion Web site at
-[www.pearsonglobaleditions.com/gaddis](www.pearsonglobaleditions.com/gaddis).)
+(You can access the book’s companion Web site at www.pearsonglobaleditions.com/gaddis.)
 
 > **TIP:** Read the contents of the `WorldSeriesWinners.txt` file into a list.
 When the user enters the name of a team, the program should step through the
