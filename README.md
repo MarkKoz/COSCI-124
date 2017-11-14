@@ -1,4 +1,4 @@
-# CO SCI 124 - Chapter 06: Programming Exercises
+# CO SCI 124 - Chapter 07: Programming Exercises
 **Course Title:** Python Programming<br/>
 **Section:** 28314<br/>
 **Instructor:** Mohamad Pashazadeh Monajem<br/>
