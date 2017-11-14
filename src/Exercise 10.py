@@ -6,6 +6,6 @@ with open("WorldSeriesWinners.txt") as file:
     # This is done to remove the newline character.
     winners: List[str] = file.read().lower().splitlines()
 
-team = input("Enter a team's name: ")
+team: str = input("Enter a team's name: ")
 
 print(f"{team} has won the World Series {winners.count(team.lower())} times.")
