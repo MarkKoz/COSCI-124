@@ -6,6 +6,9 @@
 **Textbook:** [Gaddis, Tony. _Starting out with Python_. 3rd ed.](http://www.mypearsonstore.com/bookstore/starting-out-with-python-subscription-0133743691)
 (ISBN-13: 978-0-13-374369-2)
 
+### Tasks
+Make sure the provided programs run and then fully document them.
+
 ### Chapter 10
 #### Exercise 01 - `Pet` Class
 Write a class named `Pet`, which should have the following data attributes:
